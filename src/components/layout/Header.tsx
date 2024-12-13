@@ -90,7 +90,7 @@ export const Header: React.FC = () => {
                   </Button>
                 </Link>
                 <Link to="/register">
-                  <Button className="bg-white text-indigo-600 hover:bg-indigo-50 border border-transparent hover:border-white">
+                  <Button className="text-indigo-600 hover:bg-indigo-50 border border-transparent hover:border-white">
                     Sign up
                   </Button>
                 </Link>
