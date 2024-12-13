@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Settings, Moon, Sun, Globe, Bell } from 'lucide-react';
-import { Button } from '../ui/Button';
 import { useTheme } from '../../hooks/useTheme';
+
 
 export const PreferencesSettings: React.FC = () => {
   const { theme, setTheme } = useTheme();
